@@ -1,0 +1,273 @@
+/* Universal Styles */
+
+/* mobile */
+
+
+
+@media only screen and (max-width: 480px) and (min-resolution: 300dpi) {
+
+}
+
+
+
+/* Header section */
+
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  display: flex;
+}
+
+#navright {
+    padding-right: 24px;
+}
+
+nav ul{
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+}
+
+.box {
+width: 16px;
+height: 50px;
+background-color: Dodgerblue;
+margin: 10px 30px;
+}
+
+.mobile {
+  display: none;
+}
+
+/* banner */
+
+
+
+#banner {
+  display: inline-flex;
+  background-color: #D3D3D3;
+  position: relative;
+  margin-top: 20px;
+
+}
+
+.bannerpicture {
+  width: 60%;
+  padding: 32px 24px;
+
+}
+
+.bannertext {
+    padding: 24px;
+}
+
+.bannerbox {
+    background-color: #696969;
+}
+
+.starthere {
+    padding: 8px;
+    text-align: center;
+}
+
+/* main info */
+
+#information {
+  display: flex;
+  background-color: white;
+}
+
+#maininfo {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.infobox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.hiring {
+  margin-bottom: 32px;
+}
+
+
+.sidebar {
+
+  background-color: white;
+  margin-top: 20px;
+  width: 40%;
+  flex-wrap: wrap;
+
+}
+
+.infopicture {
+  width: 60%;
+  padding: 32px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebox {
+  width: 100%;
+  border-width: 0.5px;
+  border-color: #C0C0C0;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.orientation {
+  width: 35%;
+  height: auto;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.orientationtext {
+  width: 65%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.campus {
+  width: 35%;
+  height: auto;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.campustext {
+  width: 65%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.guest {
+  width: 35%;
+  height: auto;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.guesttext {
+  width: 65%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Start Learning Section */
+
+#startlearning {
+  background-color: #D3D3D3;
+  margin-top: 32px;
+}
+
+.learning {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.courses1 {
+    display: flex;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.software {
+
+}
+
+.softwaretext {
+    padding-top: 16px;
+    padding-left: 16px;
+    background-color: white;
+    height: 160px;
+    padding-bottom: 24px;
+}
+
+.computerart {
+    margin-left: 32px;
+}
+
+.computertext {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  background-color: white;
+  height: 160px;
+}
+
+.design {
+  margin-left: 32px;
+}
+
+.designtext {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  background-color: white;
+  height: 160px;
+}
+
+.courses2 {
+    display: flex;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* Thesis Section */
+
+.sidebox1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+}
+
+.sidebox2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+#maininfo2 {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+/* copyright Section */
+
+.terms {
+    float: right;
+    align-items: center;
+}
